@@ -31,7 +31,7 @@
     steps:
       - run: make test
       - run: make
-                  build: 
+                  build: repo
                   
                  docker: 
       - image          : circleci/<language>:<version TAG>
